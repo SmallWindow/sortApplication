@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btnXuanZe = findViewById(R.id.btn_xuanze);
         btnQuick = findViewById(R.id.btn_quick);
         Log.d("MainActivity","再次修改分支1");
+        Log.d("MainActivity","再次修改分支2");
         btnMaoPao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
