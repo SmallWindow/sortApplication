@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d("MainActivity","我是分支1");
         setContentView(R.layout.activity_main);
         tvShow = findViewById(R.id.tv_show);
         tvResult = findViewById(R.id.tv_result);
